@@ -19,8 +19,8 @@ body {
 }
 
 .fm-cards {
-  max-width: 320px;
-  min-height: 380px;
+  width: 320px;
+  height: 380px;
   background-color: white;
   box-shadow: 3px 4px rgba(0, 0, 0, 0.177);
 }
@@ -66,5 +66,40 @@ p {
   text-transform: capitalize;
 }
 
+.fm-cards:hover{
+  zoom: 108%;
+  rotate: 10deg;
+  box-shadow: 7px 9px rgba(0, 0, 0, 0.177);
+  cursor: pointer;
+  transition: 1s;
+}
 
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.709);
+  z-index: 2;
+}
+
+.overlay-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-position-btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 10px 30px;
+}
 
