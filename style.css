@@ -4,3 +4,53 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Allan", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(assets_day1/img/cork.png);
+}
+
+/* Utilities */
+
+.fm-container {
+  max-width: 1400px;
+  min-height: 180px;
+  margin: 0 auto;
+}
+
+.fm-cards {
+  max-width: 320px;
+  min-height: 380px;
+  background-color: white;
+}
+
+/* Header */
+
+header{
+  background-image: url(assets_day1/img/wall.png);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 100px;
+}
+
+/* Main */
+
+img {
+  margin: 20px;
+  height: 280px;
+  width: 280px;
+}
+
+.img-point {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  left: 125px;
+  top: -32px;
+}
+
+
+
