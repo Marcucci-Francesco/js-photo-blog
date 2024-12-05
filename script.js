@@ -70,7 +70,7 @@ function printCards(summer){
   const {title, url} = summer;
 
   document.getElementById('row-cards').innerHTML += `
-  <div class="col-xxl-3 col-md-4 d-flex justify-content-center">
+  <div class="col-xxl-3 col-md-4">
     <div class="fm-cards text-center position-relative">
       <img src="assets_day1/img/pin.svg" alt="" class="img-point">
       <img src="${url}" alt="" class="img">
