@@ -31,10 +31,13 @@ fetch(endPoint)
     document.getElementById('row-cards').innerHTML = '';
     data.forEach(summer => printCards(summer));
   })
+  .catch(error => {
+    console.log(error);
+  })
 
 
   // Mi creo una funzione per stampare le cards in pagina, andando a destrutturare gli elementi che mi occorrono con cui andro poi a sostituire i paramentri nell'html delle cards, richiamando prima l'id di dove le andrò ad inserire.
-  
+
   function printCards(summer){
     const {title, url} = summer;
 
