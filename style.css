@@ -40,8 +40,8 @@ h1 {
 
 img {
   margin: 20px;
-  height: 280px;
-  width: 280px;
+  max-height: 280px;
+  max-width: 280px;
 }
 
 .img-point {
@@ -50,6 +50,12 @@ img {
   position: absolute;
   left: 125px;
   top: -32px;
+}
+
+p {
+  padding: 0 20px;
+  text-align: start;
+  text-transform: capitalize;
 }
 
 
